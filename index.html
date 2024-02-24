@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Racing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Car Racing Game</h1>
+    </div>
+    <div class="road_frame">
+        <img src="Img/road.jpg">
+        <img src="Img/road.jpg">
+        <img src="Img/road.jpg">
+
+        <div class="blue_car" id="blue_car">
+            <img src="Img/blue_car.png">
+        </div>
+        <div class="red_car" id="red_car"> 
+            <img src="Img/red_car.png">
+        </div>
+    </div>
+    
+    <!-- game over  -->
+    <div id="game_score_card_outer" class="game_score_card_outer">
+    <div class="game_score_card">
+        <h1>Game Over</h1>
+        <h3 >Score : <span id="score">dd</span></h3>
+        <button onclick="location.reload()">Restart</button>
+    </div>
+</div>
+    //audio
+    <audio src="click.wav" id="click_audio"></audio>
+    <audio src="lose.wav" id="lose_audio"></audio>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
